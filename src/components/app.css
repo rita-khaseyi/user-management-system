@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 1px solid #e8e8e8;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Changed from blue to a darker color */
+  }
+  
+  /* UserTable Component Styles */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .actions-cell {
+    text-align: center;
+  }
+  
+  .actions-cell button {
+    margin-right: 8px;
+  }
+  
+  .add-user-button {
+    margin-top: 16px; /* Moved the button to the top */
+    background-color: #001529; /* Deep blue background */
+    border-color: #001529; /* Deep blue border color */
+  }
+  
+  .add-user-button:hover,
+  .add-user-button:focus {
+    background-color: #002140; /* Darker shade for hover/focus */
+    border-color: #002140;
+  }
+  
+  .delete-button {
+    color: #f5222d; /* Red color for delete button text */
+    border-color: #f5222d; /* Red color for delete button border */
+  }
+  
+  .delete-button:hover,
+  .delete-button:focus {
+    color: #ff4d4f; /* Lighter red for delete button text on hover/focus */
+    border-color: #ff4d4f;
+  }
+  
+  /* Modal Styles */
+  .ant-modal-header {
+    background-color: #1890ff;
+    color: #fff;
+    border-bottom: none;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .ant-modal-title {
+    color: #fff;
+  }
+  
+  /* Form Styles */
+  .ant-form-item {
+    margin-bottom: 12px;
+  }
+  
+  .ant-form-item-label {
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .ant-form-item-explain {
+    color: #ff4d4f;
+  }
+  
+  .ant-input {
+    border-radius: 4px;
+  }
+  
+  .ant-btn {
+    border-radius: 4px;
+  }
+  
+  /* Table Styles */
+  .ant-table {
+    border-radius: 8px;
+    border: 1px solid #e8e8e8;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #f0f2f5;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .ant-table-tbody > tr > td {
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .ant-table-tbody > tr:last-child > td {
+    border-bottom: none;
+  }
+  
+  .ant-table-tbody > tr:hover > td {
+    background-color: #e6f7ff;
+  }
+  
+  /* Added lines between rows */
+  .ant-table-row {
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    border-right: 1px solid #e8e8e8;
+  }
+  
+  .ant-table-thead > tr > th:first-child,
+  .ant-table-tbody > tr > td:first-child {
+    border-left: 1px solid #e8e8e8;
+  }
+  
