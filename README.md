@@ -18,7 +18,9 @@ Ant Design
 
 **Installation**
 Clone the repository:
+
 `git clone https://github.com/rita-khaseyi/user-management-system`
+
 `cd user-management-table`
 
 
