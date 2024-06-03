@@ -4,9 +4,13 @@ A simple user management system built with React, TypeScript, and Ant Design. It
 
 **Features**
 Display a list of users with avatars.
+
 Add new users.
+
 Edit existing users.
+
 Delete users.
+
 **Technologies Used**
 React
 TypeScript
