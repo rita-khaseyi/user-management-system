@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+#User Management Table
+A simple user management system built with React, TypeScript, and Ant Design. It includes functionalities to add, edit, and delete users, each with a unique avatar.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Features
+Display a list of users with avatars.
+Add new users.
+Edit existing users.
+Delete users.
+#Technologies Used
+React
+TypeScript
+Ant Design
 
-Currently, two official plugins are available:
+#Installation
+Clone the repository:
+`git clone https://github.com/yourusername/user-management-table.git`
+`cd user-management-table`
+#Install dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`npm install`
 
-## Expanding the ESLint configuration
+Start the development server:
+`npm run dev`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Usage
+Add User: Click "Add User" and fill in the form.
+Edit User: Click "Edit" next to a user and update the form.
+Delete User: Click "Delete" next to a user.
