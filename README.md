@@ -32,6 +32,8 @@ Clone the repository:
 `npm run dev`
 
 **Usage**
-Add User: Click "Add User" and fill in the form.
-Edit User: Click "Edit" next to a user and update the form.
-Delete User: Click "Delete" next to a user.
+**Add User:** Click "Add User" and fill in the form.
+
+**Edit User:** Click "Edit" next to a user and update the form.
+
+**Delete User:** Click "Delete" next to a user.
