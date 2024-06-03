@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table, Button, Modal, Form, Input, Avatar } from 'antd'; // Import Avatar component from Ant Design
 import { useUserContext, User } from '../hooks/UserReducer';
-import './app.css'; 
+import './app.css';
 
 const UserTable = () => {
   // State and context hooks
@@ -10,13 +10,13 @@ const UserTable = () => {
   const [visible, setVisible] = React.useState(false);
   const [editingUserId, setEditingUserId] = React.useState<number | null>(null);
 
-  // Define a list of interesting colors
+  // initializing list of colours 
   const colors = ['#f56a00', '#7265e6', '#ffbf00', '#00a2ae', '#ff4d4f', '#52c41a'];
 
   // Function to get a color based on user ID
   const getColor = (id: number) => colors[id % colors.length];
 
-  // Add a new user to the state
+  // Adding a new user to the state
   const addUser = (user: User) => {
     dispatch({ type: 'ADD_USER', payload: { ...user, id: state.users.length + 1 } });
     setVisible(false); // Hide the modal
@@ -64,10 +64,10 @@ const UserTable = () => {
   // Table columns configuration
   const columns = [
     { title: 'ID', dataIndex: 'id', key: 'id' },
-    { 
-      title: 'Avatar', 
-      dataIndex: 'avatar', 
-      key: 'avatar', 
+    {
+      title: 'Avatar',
+      dataIndex: 'avatar',
+      key: 'avatar',
       render: (_: any, user: User) => (
         <Avatar size="large" style={{ backgroundColor: getColor(user.id) }}>
           {user.name.charAt(0)}

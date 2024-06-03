@@ -23,7 +23,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: hsl(212, 90%, 15%);
+    color: hsl(212, 95%, 23%);
   }
   
   /* UserTable Component Styles */
@@ -40,9 +40,9 @@ body {
   }
   
   .add-user-button {
-    margin-top: 16px; /* Moved the button to the top */
-    background-color: #001529; /* Deep blue background */
-    border-color: #001529; /* Deep blue border color */
+    margin-top: 16px; 
+    background-color: #001529; 
+    border-color: #021222; 
   }
   
   .add-user-button:hover,
@@ -121,8 +121,7 @@ body {
   .ant-table-tbody > tr:hover > td {
     background-color: #e6f7ff;
   }
-  
-  /* Added lines between rows */
+
   .ant-table-row {
     border-bottom: 1px solid #e8e8e8;
   }
