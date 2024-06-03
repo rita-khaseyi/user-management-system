@@ -20,10 +20,10 @@ body {
   }
   
   h1 {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom: 20px;
-    color: #333; /* Changed from blue to a darker color */
+    margin-bottom: 10px;
+    color: hsl(212, 90%, 15%);
   }
   
   /* UserTable Component Styles */
@@ -58,13 +58,13 @@ body {
   
   .delete-button:hover,
   .delete-button:focus {
-    color: #ff4d4f; /* Lighter red for delete button text on hover/focus */
+    color: #ff4d4f;
     border-color: #ff4d4f;
   }
   
   /* Modal Styles */
   .ant-modal-header {
-    background-color: #1890ff;
+    background-color: #031d35;
     color: #fff;
     border-bottom: none;
     border-radius: 12px 12px 0 0;
